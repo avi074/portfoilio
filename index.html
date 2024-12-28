@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Gautam</title>
+    <!-- Frontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="card">
+        <a href="#" class="logo">
+            <i class="fa-stack">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fab fa-autoprefixer fa-stack-1x"></i>
+            </i>
+        </a>
+        <input type="checkbox" id="menu-toggle">
+        <nav class="card">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#certificates">Certification</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <input type="checkbox" id="theme-toggle">
+    </header>
+    <main>
+        <img id="home-bg" src="./images/home-bg.jpg">
+        <!-- Home -->
+        <section class="card" id="home">
+            <div class="card" id="home-intro">
+                <h1><span>Avinash Gautam</span></h1>
+                <p>An aspiring Full-Stack Web Developer</p>
+                <div class="card" id="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"
+                            style="--bg-color:#316ff6"></i></a>
+                    <a href="https://www.instagram.com/_avi_aryan_/" target="_blank"><i class="fab fa-instagram"
+                            style="--bg-color:#ee2a7b"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"
+                            style="--bg-color:#1DA1F2"></i></a>
+                    <a href="https://www.linkedin.com/in/boss-avinashg/" target="_blank"><i class="fab fa-linkedin"
+                            style="--bg-color:#316fe6"></i></a>
+                </div>
+                <button>
+                    <a class="btn" href="./resources/Avinash-resume.pdf" target="_blank">Download Resume</a>
+                </button>
+            </div>
+            <div id="img-cube">
+                <div class="cube">
+                    <img src="./images/img-cube/author-1.jpg" alt="author-1" class="side">
+                    <img src="./images/img-cube/author-2.jpg" alt="author-2" class="side">
+                    <img src="./images/img-cube/author-3.jpg" alt="author-3" class="side">
+                    <img src="./images/img-cube/author-4.jpg" alt="author-4" class="side">
+                    <img src="./images/img-cube/author-5.jpg" alt="author-5" class="side">
+                    <img src="./images/img-cube/author-6.jpg" alt="author-6" class="side">
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h1>About <span>Me</span></h1>
+            <div id="about-intro" class="card">
+                <img src="./images/author.JPG" alt="author-img">
+                <div>
+                    <p class="cutoff-text" style="--max-lines:5">
+                        Hi there! I'm Avinash, a passionate and driven full stack developer with a fresh perspective and
+                        a hunger to learn. My journey into the world of coding began with a curiosity that has since
+                        evolved into a love for crafting clean, efficient, and user-friendly solutions. I thrive in
+                        collaborative environments and am eager to contribute my skills in front-end and back-end
+                        development to meaningful projects. With a strong foundation in HTML, CSS, JavaScript, and
+                        various frameworks, I'm excited to embark on new challenges and make a positive impact in the
+                        tech community. Let's build something amazing together!
+                    </p>
+                    <input type="checkbox" id="read-more-btn">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h1>My <span>Skills</span></h1>
+            <div class="card">
+                <!-- Technical Skills -->
+                <div id="hard-skills">
+                    <div class="skill">
+                        <h2>HTML</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:85%">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>CSS</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:88%;">88%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Javascript</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>DBMS</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>C++</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:60%;">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Python</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:65%;">65%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Data Structure & Algorithms</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="--progress:75%;">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Interpersonal Skills -->
+                <div id="soft-skills" class="grid-card">
+                    <div class="skill">
+                        <h2>Communication</h2>
+                        <div class="circular-progress-bar">
+                            <div class="progress" style="--progress:75%;">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Team Work</h2>
+                        <div class="circular-progress-bar">
+                            <div class="progress" style="--progress:60%;">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Problem Solving</h2>
+                        <div class="circular-progress-bar">
+                            <div class="progress" style="--progress:70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Adaptability</h2>
+                        <div class="circular-progress-bar">
+                            <div class="progress" style="--progress:85%;">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications/Services -->
+        <section id="certificates">
+            <h1>My <span>Certifications</span></h1>
+            <div class="grid-card">
+                <div class="card">
+                    <i class="fas fa-database"></i>
+                    <h2>SQL For Data Analytics</h2>
+                    <p>Showcase your analytical abilities in designing a highly scalable & optimized database for better
+                        operability according to the client needs & ability to perform analysis for better understanding
+                        of the data.</p>
+                    <p><strong>Proficiency in Database Management & Analytics using SQL eg. MySQL, PostgreSQL</strong>
+                    </p>
+                    <button>
+                        <a class="btn" href="https://trainings.internshala.com/s/v/3192964/029a5023"
+                            target="_blank">Read More</a>
+                    </button>
+                </div>
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Highlight your commitment in building websites that are responsive & adapt seamlessly to verious
+                        screens & devices.</p>
+                    <p><strong>Showcase your ability in creating highly scalable & responsive web apps using both
+                            frontend & backend framworks for every project.</strong></p>
+                    <button>
+                        <a class="btn" href="https://trainings.internshala.com/s/v/3143208/193350db"
+                            target="_blank">Read More</a>
+                    </button>
+                </div>
+                <div class="card">
+                    <i class="fab fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Build robust and scalable web applications using powerful frameworks like Django or
+                        Flask.Implement backend logic efficiently, handle database interactions, and create RESTful
+                        APIs.</p>
+                    <p><strong>Leverage Python's versatility for tasks such as automation, data analysis, and machine
+                            learning within web projects.</strong></p>
+                    <button>
+                        <a class="btn" href="https://www.hackerrank.com/certificates/60cb7ed6c506" target="_blank">Read
+                            More</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section id="projects">
+            <h1>My <span>Projects</span></h1>
+            <div class="grid-card">
+                <div class="card">
+                    <img class="card-img" src="./images/Projects/project-1.jpg" alt="project-1">
+                    <div class="card card-intro">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Avinash-msc" target="_blank">
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./images/Projects/project-2.jpg" alt="project-2">
+                    <div class="card card-intro">
+                        <h2>Mobile App</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Avinash-msc" target="_blank">
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./images/Projects/project-3.jpg" alt="project-3">
+                    <div class="card card-intro">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Avinash-msc" target="_blank">
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./images/Projects/project-4.jpg" alt="project-4">
+                    <div class="card card-intro">
+                        <h2>ChatGPT Replica</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Avinash-msc" target="_blank">
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./images/Projects/project-5.jpg" alt="project-5">
+                    <div class="card card-intro">
+                        <h2>Blockchain</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Avinash-msc" target="_blank">
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./images/Projects/project-6.jpg" alt="project-6">
+                    <div class="card card-intro">
+                        <h2>Connect Me</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Avinash-msc" target="_blank">
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <h1>Contact <span>Me</span></h1>
+            <div class="card">
+                <a href="#" class="logo">
+                    <i class="fa-stack">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-autoprefixer fa-stack-1x"></i>
+                    </i>
+                </a>
+                <form class="card" id="contact-form" method="get">
+                    <input type="text" name="username" placeholder="Enter Your Name" required>
+                    <input type="tel" name="usermob" placeholder="Enter Your Mobile" required>
+                    <input type="email" name="useremail" placeholder="Enter Your Email" required>
+                    <input type="text" name="msg-subject" placeholder="Enter Subject" required>
+                    <textarea name="usermsg" cols="20" rows="10" placeholder="Enter Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="card">
+        <a href="http://mail.google.com/mail/?view=cm&to=boss.avinashg@gmail.com" target="_blank"
+            data-source="boss.avinashg@gmail.com" style="--bg-color:white">
+            <img class="icon" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"
+                style="background-color: var(--bg-color);" /></a>
+        <a href="http://wa.me/916377235075" target="_blank" data-source="+91-6377235075" style="--bg-color: #4ee628;">
+            <i class="fab fa-whatsapp" style=" background-color: var(--bg-color);"></i></a>
+        <a href="http://t.me/Avinash_G" target="_blank" data-source="Avinash_G" style="--bg-color:#6495ed">
+            <i class="fab fa-telegram" style="background-color: var(--bg-color);"></i></a>
+        <a href="http://discordapp.com/users/avinashgautam74" target="_blank" data-source="avinashgautam74"
+            style="--bg-color:#5734e3bd">
+            <i class="fab fa-discord" style="background-color: var(--bg-color);"></i></a>
+    </footer>
+</body>
+
+</html>
